@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+       <h1>Delete Agent</h1>
+       <a href="/leads/"> Are you sure wan to delete Agent? </a>
+        <form method="post">
+            {% csrf_token %}
+            {{form.as_p}}
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+{% endblock content %}

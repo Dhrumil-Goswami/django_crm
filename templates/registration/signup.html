@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<form method="post" class="mt-5">
+    {% csrf_token %}
+    {{form.as_p}}
+     <button type='submit' class="w-full text-white bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded-md">
+            Signup
+        </button>
+</form>
+{% endblock content %}
