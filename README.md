@@ -1,6 +1,6 @@
 # Django CRM Project
 
-This repository contains the source code for the "Getting Started With Django" course, available on YouTube and JustDjango.
+This repository contains the source code for the DJANGO
 
 ## Getting Started
 
